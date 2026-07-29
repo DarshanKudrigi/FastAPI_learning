@@ -15,6 +15,3 @@ def home():
 def about(user_id: int):
     return {"message": "This is my first FastAPI application.", "user_id": user_id};
 
-@app.get("/square/{number}")
-def square(number: str):
-    return {"square": int(number) ** 2}
