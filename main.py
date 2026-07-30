@@ -5,6 +5,8 @@ app = FastAPI();
 
 darshan = "Hello, FastAPI!";
 suman = 42;
+raju=369
+
 
 @app.get("/")
 def home():

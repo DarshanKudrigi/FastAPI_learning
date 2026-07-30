@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from user_model import BaseModel
 
 
 app = FastAPI();
