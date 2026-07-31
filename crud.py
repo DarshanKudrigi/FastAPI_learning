@@ -36,10 +36,10 @@ def get_todo(todo_id:int):
     return {"message:todo not found!!"}
 
 
-@app.put("tod/todo_id")
+@app.put("/todo/{todo_id}")
 def update_todo(todo_id:int,updated_todo:Todo):
-    for i in enumerate(todos):
-        if(i.id == todo_id ):
+    for i ,j in enumerate(todos):
+        if(j.id == todo_id ):
             todos[i]=updated_todo;
             return {"message":"todo  found!!",
                     "data": updated_todo
