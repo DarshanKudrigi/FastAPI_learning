@@ -13,8 +13,8 @@ def get_user(id:int):
 
     if id not in users:
         raise HTTPException(
-            # status_code=status.HTTP_401_UNAUTHORIZED,
-            status_code=404,
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            # status_code=404,
             detail="User Not Found"
         )
     return {
@@ -27,16 +27,6 @@ def get_user(id:int):
 
 # Answer:
 # An HTTP status code is a three-digit code returned by the server that indicates whether a request was successful or if an error occurred.
-
-
-
-
-
-
-
-
-
-
 
 
 # Client
