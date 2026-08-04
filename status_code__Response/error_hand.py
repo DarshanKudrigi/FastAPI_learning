@@ -5,7 +5,8 @@ app = FastAPI()
 
 users = {
     1:"Darshan",
-    2:"Rahul"
+    2:"Rahul",
+    3:"Rammsh"
 }
 
 @app.get("/user/{id}")
