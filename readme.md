@@ -1,4 +1,4 @@
-# 🚀 FastAPI Learning Journey
+FastAPI Learning Journey
 
 This repository contains my complete FastAPI learning journey.
 
