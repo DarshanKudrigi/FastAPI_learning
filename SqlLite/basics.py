@@ -9,7 +9,15 @@
 
 # Write a Python program that connects to a SQLite database, creates a table, inserts some data, and retrieves the data.
 import sqlite3
+import os
+import sys
+import logging
+import pandas as pd
+import numpy as np
+import fastapi as FastAPI
 
+
+app = FastAPI()
 # Connect to the database
 conn = sqlite3.connect('example.db')
 
